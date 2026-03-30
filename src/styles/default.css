@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Headland+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1{
+    font-family: "Headland One", serif;
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+}
+
+h2 {
+    text-align: center;
+    width: 100%;
+}
+
+header nav {
+    background-color: #aed2d2;
+    border-top: 0.1px solid #c2eaea;
+    border-bottom: 0.1px solid #aed2d2;
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+header nav a {
+    color: #2f4550ff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+body {
+    background-color: rgb(218, 241, 245);
+    color: #2f4550ff; 
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    font-family: "Nunito", sans-serif;
+    /*max-width: 1000px;*/
+    margin-left: 20%;
+    margin-right: 20%;
+    overflow-y: auto;
+    flex-grow: 1;
+}
+
+
+p {
+    margin-bottom: 1em;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer nav {
+    background-color: #c1e8e8;
+    border-top: 0.1px solid #c1e8e8;
+    border-bottom: 0.1px solid #c1e8e8;
+    text-align: center;
+    bottom: 0px;
+    width: 100%;
+    /*position: fixed;*/
+}
+
+footer nav a {
+    color: #2f4550ff;
+    text-decoration: none;
+}
+
+footer nav a:hover {
+  text-decoration: underline;
+}
+
+.logo {
+  text-align: center;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

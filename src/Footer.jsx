@@ -1,7 +1,24 @@
 export default function Header() {
   return (
         <footer>
-            <p>Sasha's footer goes here</p>
+            <nav>
+                <a href="https://github.com/achernoi">GitHub</a> |
+                <a href="https://achernoi.github.io"> GitHub.io</a> |
+                <a href="https://webpages.charlotte.edu/achernoi/"> CLTWeb</a> |
+                <a href="https://www.freecodecamp.org/achernoi"> freeCodeCamp</a> |
+                <a href="https://www.linkedin.com/in/sashachernoivan/"> LinkedIn</a>
+                <p>
+                    Page designed by{" "}
+                    <a href="https://achernoi.github.io/itis3135/sashasdesigns.com/">
+                    Sasha's Designs
+                    </a>
+                </p>
+                <p>
+                    <a href="https://www.freecodecamp.org/certification/achernoi/responsive-web-design-v9">
+                    Certified in Responsive Web Design
+                    </a>
+                </p>
+            </nav>
         </footer>
     );
 }

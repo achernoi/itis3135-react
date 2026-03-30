@@ -1,14 +1,15 @@
 import Header from "./Header";
 import Footer from "./Footer";
+import { Link } from 'react-router';
 
 export default function Contract() {
     return (
         <>
             <Header />
             <main>
-                <h2>Contract</h2>
+                <h2 style={{textAlign: "center"}}>Contract</h2>
                 <p>
-                I, <a href="../introduction.html">Sasha Chernoivan</a> agree to abide by the terms of the course contract in my Spring 2026, ITIS 3135, Front-End Web App Development with my instructor, Professor D.I. von Briesen. 
+                I, <Link to="/Introduction">Sasha Chernoivan</Link> agree to abide by the terms of the course contract in my Spring 2026, ITIS 3135, Front-End Web App Development with my instructor, Professor D.I. von Briesen. 
                 </p>
 
                 <p>  
@@ -20,7 +21,7 @@ export default function Contract() {
                 </p>
 
                 <p>    
-                I also understand that given the structure and content of this class it’s possible to find many examples online or even view my classmates’ code directly. 
+                I also understand that given the structure and content of this class it's possible to find many examples online or even view my classmates' code directly. 
                 </p> 
 
                 <p>    
