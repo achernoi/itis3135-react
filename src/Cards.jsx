@@ -2,6 +2,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import './styles/default.css';
 import styles from "./styles/cards.module.css";
+import CoffeeCat from "./assets/coffee-cat.png";
 
 export default function Cards(){
     return (
@@ -11,7 +12,7 @@ export default function Cards(){
                 <h2 style={{textAlign: "center", width: "100%"}}>Sweet Cat Cafe Cards</h2>
                 <div className={styles.card + " " + styles.red}>
                     <div className={styles.left}>
-                    <img src="/src/assets/coffee-cat.png" alt="cat logo" width={50} height={50} />
+                    <img src={CoffeeCat} alt="cat logo" width={50} height={50} />
                     </div>
                     <div className={styles.middle}>
                     <img
@@ -23,7 +24,7 @@ export default function Cards(){
                     </div>
                     <div className={styles.right}>
                     <img
-                        src="/src/assets/coffee-cat.png"
+                        src={CoffeeCat}
                         alt="cat logo"
                         width={50}
                         height={50}
