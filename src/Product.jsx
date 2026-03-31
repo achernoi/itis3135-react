@@ -1,6 +1,7 @@
 import { HashLink } from "react-router-hash-link";
 import Header from "./Header";
 import Footer from "./Footer";
+import Logo from "./assets/sweetcat-logo.png";
 
 export default function Product() {    
     return (
@@ -11,7 +12,7 @@ export default function Product() {
                     <img
                     id="header-img"
                     alt="logo"
-                    src="/src/assets/sweetcat-logo.png" width="200" height="200"/>
+                    src={Logo} width="200" height="200"/>
                 </div>
                 <div>
                     <nav id="nav-bar">
