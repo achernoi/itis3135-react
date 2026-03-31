@@ -19,14 +19,14 @@ export default function Inventory() {
                 </tr>
                 </thead>
                 <tbody>
-                <tr className="onlineOnly">
+                <tr className={styles.onlineOnly}>
                     <td>
                     <span className="item">Brasil Fazenda</span>
                     </td>
                     <td>$15.99</td>
                     <td>Brasil</td>
                     <td>
-                    <span className="status">Online Only</span>
+                    <span className={styles.status}>Online Only</span>
                     </td>
                     <td>
                     <span className="rate two">
@@ -36,12 +36,12 @@ export default function Inventory() {
                     </span>
                     </td>
                 </tr>
-                <tr className="soldOut">
+                <tr className={styles.soldOut}>
                     <td>Columbian Supremo</td>
                     <td>$11.99</td>
                     <td>Columbia</td>
                     <td>
-                    <span className="status">Sold Out</span>
+                    <span className={styles.status}>Sold Out</span>
                     </td>
                     <td>
                     <span className="rate three">
@@ -51,12 +51,12 @@ export default function Inventory() {
                     </span>
                     </td>
                 </tr>
-                <tr className="inStock">
+                <tr className={styles.inStock}>
                     <td>Costa Rica Tarrazu</td>
                     <td>$16.99</td>
                     <td>Costa Rica</td>
                     <td>
-                    <span className="status">In Stock</span>
+                    <span className={styles.status}>In Stock</span>
                     </td>
                     <td>
                     <span className="rate two">
@@ -66,12 +66,12 @@ export default function Inventory() {
                     </span>
                     </td>
                 </tr>
-                <tr className="onlineOnly">
+                <tr className={styles.onlineOnly}>
                     <td>Kona Blend</td>
                     <td>$20.99</td>
                     <td>Hawaii</td>
                     <td>
-                    <span className="status">Online Only</span>
+                    <span className={styles.status}>Online Only</span>
                     </td>
                     <td>
                     <span className="rate one">
@@ -81,12 +81,12 @@ export default function Inventory() {
                     </span>
                     </td>
                 </tr>
-                <tr className="inStock">
+                <tr className={styles.inStock}>
                     <td>Tanzanian Peaberry</td>
                     <td>$17.99</td>
                     <td>Tanzania</td>
                     <td>
-                    <span className="status">In Stock</span>
+                    <span className={styles.status}>In Stock</span>
                     </td>
                     <td>
                     <span className="rate three">
@@ -96,12 +96,12 @@ export default function Inventory() {
                     </span>
                     </td>
                 </tr>
-                <tr className="onlineOnly">
+                <tr className={styles.onlineOnly}>
                     <td>Monte Alegre</td>
                     <td>$15.99</td>
                     <td>Brazil</td>
                     <td>
-                    <span className="status">Online only</span>
+                    <span className={styles.status}>Online Only</span>
                     </td>
                     <td>
                     <span className="rate one">
@@ -111,12 +111,12 @@ export default function Inventory() {
                     </span>
                     </td>
                 </tr>
-                <tr className="inStock">
+                <tr className={styles.inStock}>
                     <td>Cajamarca</td>
                     <td>$18.99</td>
                     <td>Peru</td>
                     <td>
-                    <span className="status">In Stock</span>
+                    <span className={styles.status}>In Stock</span>
                     </td>
                     <td>
                     <span className="rate two">
