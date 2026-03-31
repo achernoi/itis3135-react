@@ -1,5 +1,6 @@
 import Header from "./Header";
 import Footer from "./Footer";
+import MyImage from "./assets/myimage.png";
 
 export default function Introduction() {
     return (
@@ -9,7 +10,7 @@ export default function Introduction() {
                 <h2 style={{textAlign: "center"}}>Introduction</h2>
                 <figure style={{textAlign: "center"}}>
                     <img
-                    src="src/assets/myimage.png"
+                    src={MyImage}
                     alt="My introduction image."
                     height={400}
                     width={300}
