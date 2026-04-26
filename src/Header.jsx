@@ -21,7 +21,8 @@ export default function Header() {
                 <Link to="/Inventory">Inventory</Link> |{' '}
                 <Link to="/Survey">Survey</Link> |{' '}
                 <Link to="/Evaluations">Evaluations</Link> |{' '}
-                <Link to="/IntroForm">Intro Form</Link>
+                <Link to="/IntroForm">Intro Form</Link> |{' '}
+                <Link to="/slideshow">Slideshow</Link>
             </nav>
         </header>
     );

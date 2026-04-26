@@ -13,6 +13,7 @@ import Survey from './Survey.jsx';
 import Cards from './Cards.jsx';
 import IntroForm from './IntroForm.jsx';
 import Evaluations from './Evaluations.jsx';
+import CatSlideshow from "./CatSlideshow.jsx"; 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -28,6 +29,7 @@ createRoot(document.getElementById('root')).render(
             <Route path='/Cards' element={<Cards />}></Route>
             <Route path="/IntroForm" element={<IntroForm />} />
             <Route path="/Evaluations" element={<Evaluations />} />
+            <Route path="/slideshow" element={<CatSlideshow />} />
       </Routes>
     </HashRouter>
   </StrictMode>
